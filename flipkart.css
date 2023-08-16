@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+}
+.sect1{
+    height: 80px;
+    width: 100%;
+    /* border: 3px solid red; */
+    color:black;
+    display: flex;
+    background-color: blue;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+}
+.brand{
+    /* border: 2px solid greenyellow; */
+    width: 100px;
+    /* position: absolute;
+    left: 100px; */
+    color: white;
+    margin-left: 100px;
+    
+}
+.search input{
+    /* border: 2px solid yellow; */
+    width: 600px;
+    height:40px;
+    margin-left: 30px;
+    
+    
+}
+
+.search{
+    position: relative;
+    display: flex;
+    margin-left: -88px;
+
+}
+span{
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sicon{
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    color: blue;
+}
+.login{
+    padding-top: 5px;
+    border: 2px solid grey;
+    color: blue;
+    background-color: white;
+    text-decoration: none;font-size: 15px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-left: 40px;
+    position: relative;
+    right: 80px;
+}
+.login a{
+    text-decoration: none;
+    
+}
+.more{
+    /* border: 2px solid yellow; */
+    display: flex;
+    color: white;
+    position: relative;
+    right: 150px;
+
+}
+.morein1 select{
+    border: none;
+    padding: 0px;
+    background-color: blue;
+    color: white;
+}
+.sellar{
+    /* border: 2px solid white; */
+    color: white;
+    position: relative;
+    right: 120px;
+}
+.cart{
+    /* border: 2px solid orange; */
+    display: flex;
+    color: white;
+    position: relative;
+    right: 180px;
+}
+.cart .cart1,.cart2{
+    margin-left: 8px;
+}
+main{
+    /* margin-right: -100px; */
+    margin-left: 20px;
+    padding-top:10px;
+    display: flex;
+    height: 130px;
+    width: 97%;
+    justify-content: space-around;
+    background-color: grey;
+    /* margin-left: 25px; */
+    margin-top: 10px;
+}
+
+aside{
+    /* border: 3px solid red; */
+
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+.beauty{
+    position: relative;
+    left: 80px;
+    bottom: 17px;
+    background-color: grey;
+    border: none;
+}
+.two{
+    position: relative;
+    left: 65px;
+    background-color: grey;
+    bottom: 18px;
+    border: none;
+}
+.home{
+    background-color: grey;
+left: 78px;
+position: relative;
+bottom: 18px;
+border: none;
+}
+.fashion{
+    position: relative;
+        left: 40px;
+        background-color: grey;
+        bottom: 18px;
+        border: none;
+
+}
+
+.sect2{
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 97%;
+    position: relative;
+}
+.sect2 img{
+    width: 100%;
+   
+}
+.drop1,.drop2{
+    /* border: 2px solid green; */
+    width: 50px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 35px;
+    font-size: 25px;
+}
+.drop1{
+    position: absolute;
+    bottom: 80px;
+}
+.drop2{
+    position: absolute;
+    right: 0px;
+    bottom: 80px;
+}
+
+
+
+
+
+
+
